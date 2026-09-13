@@ -87,7 +87,7 @@ public class PartStationController : MonoBehaviour
         if (ghostHint != null)
             ghostHint.SetActive(true);
 
-        ShowHint("Установите новую деталь в крепление.");
+        ShowHint("Установите новую деталь в крепление, а затем закрутите её инструментом в рабочей зоне.");
     }
 
     private bool CanAcceptSparePart(UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable interactable)
